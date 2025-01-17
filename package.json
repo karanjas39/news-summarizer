@@ -1,0 +1,28 @@
+{
+  "name": "news-summarizer",
+  "version": "1.0.0",
+  "description": "This is the news summarizer which take a block of news as an input and gives a summarized version of it with alot more accuracy.",
+  "main": "dist/NewsSummarizer.js",
+  "types": "dist/NewsSummarizer.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanjas39/news-summarizer.git"
+  },
+  "keywords": [
+    "news-summarizer",
+    "summarizer"
+  ],
+  "author": "Jaskaran Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanjas39/news-summarizer/issues"
+  },
+  "homepage": "https://github.com/karanjas39/news-summarizer#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
