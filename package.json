@@ -1,6 +1,6 @@
 {
   "name": "news-summarizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is the news summarizer which take a block of news as an input and gives a summarized version of it with alot more accuracy.",
   "main": "dist/NewsSummarizer.js",
   "types": "dist/NewsSummarizer.d.ts",
