@@ -26,9 +26,14 @@ import { NewsSummarizer } from "news-summarizer";
 
 const summarizer = new NewsSummarizer();
 const text = `
-  Apple Inc. announced its latest financial results today, reporting a 15% increase in quarterly revenue
-  to $120 billion, driven by strong iPhone sales. The company also projected significant growth for the
-  next quarter as it plans to launch new products and expand its market reach.
+The global economy is expected to grow by 3.5% this year, according to the latest IMF report. Key sectors such as technology and healthcare are projected to see significant gains, while challenges remain in addressing climate change and geopolitical tensions. 
+  Governments around the world are introducing new policies to support sustainable development. 
+  These measures include investments in renewable energy and incentives for green technologies.
+  Companies like Tesla and Apple are leading the charge in innovation, with new products 
+  targeting both developed and emerging markets. Market analysts predict robust growth 
+  for renewable energy stocks, citing strong demand and favorable policies.
+  Despite global uncertainties, the overall outlook remains positive.
+  The report also highlights the importance of international cooperation to achieve long-term goals.
 `;
 
 const summary = summarizer.summarize(text, 3); // Summarize to 3 sentences
@@ -38,7 +43,7 @@ console.log(summary);
 ### Example Output
 
 ```
-Apple Inc. announced its latest financial results today, reporting a 15% increase in quarterly revenue to $120 billion, driven by strong iPhone sales. The company also projected significant growth for the next quarter as it plans to launch new products and expand its market reach.
+The global economy is expected to grow by 3.5% this year, according to the latest IMF report. Key sectors such as technology and healthcare are projected to see significant gains, while challenges remain in addressing climate change and geopolitical tensions. Companies like Tesla and Apple are leading the charge in innovation, with new products targeting both developed and emerging markets. Market analysts predict robust growth for renewable energy stocks, citing strong demand and favorable policies. Despite global uncertainties, the overall outlook remains positive.
 ```
 
 ## Methods
