@@ -68,7 +68,7 @@ console.log(summary);
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/news-summarizer.git
+git clone https://github.com/karanjas39/news-summarizer.git
 cd news-summarizer
 npm install
 ```
@@ -79,20 +79,14 @@ Build the project:
 npm run build
 ```
 
-Run tests (if applicable):
-
-```bash
-npm test
-```
-
 ## Contribution
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ## Contact
 
-- **Email**: [yourname@example.com](mailto:yourname@example.com)
-- **LinkedIn**: [Jaskaran Singh](https://www.linkedin.com/in/singhjaskaran)
+- **Email**: [dhillonjaskaran4486@gmail.com](mailto:dhillonjaskaran4486@gmail.com)
+- **LinkedIn**: [Jaskaran Singh](https://www.linkedin.com/in/singhjaskaran/)
 
 ---
 
